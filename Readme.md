@@ -9,15 +9,15 @@ the Raspberry Pi device into a USB Mass Storage Device (MSD).
 
 ## Building
 
-- Makesure you have <code>libusb</code> installed   
+- Make sure you have <code>libusb</code> installed   
 - Clone this on your Pi or any linux machine
-
-```
-$ git clone --depth=1 https://github.com/raspberrypi/usbboot
-$ cd usbboot
-$ make
-$ sudo ./rpiboot
-```
+  <code>$ git clone --depth=1 https://github.com/raspberrypi/usbboot</code>
+- Change directory and build
+  <code>$ cd usbboot</code>
+- Build rpiboot
+  <code>$ make</code>
+- Run priboot as root
+  <code>$ sudo ./rpiboot</code>
 
 
 ## Running your own (not MSD) build
